@@ -12,6 +12,10 @@ class ComposerStaticInitd15c5bf3e0dbd303fc76e944bf135100
     );
 
     public static $prefixLengthsPsr4 = array (
+        't' => 
+        array (
+            'taufiq\\test\\' => 12,
+        ),
         'p' => 
         array (
             'phpDocumentor\\Reflection\\' => 25,
@@ -19,10 +23,6 @@ class ComposerStaticInitd15c5bf3e0dbd303fc76e944bf135100
         'W' => 
         array (
             'Webmozart\\Assert\\' => 17,
-        ),
-        'T' => 
-        array (
-            'Taufiq\\BelajarPhpUnitTest\\' => 26,
         ),
         'P' => 
         array (
@@ -37,6 +37,10 @@ class ComposerStaticInitd15c5bf3e0dbd303fc76e944bf135100
     );
 
     public static $prefixDirsPsr4 = array (
+        'taufiq\\test\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
+        ),
         'phpDocumentor\\Reflection\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
@@ -46,10 +50,6 @@ class ComposerStaticInitd15c5bf3e0dbd303fc76e944bf135100
         'Webmozart\\Assert\\' => 
         array (
             0 => __DIR__ . '/..' . '/webmozart/assert/src',
-        ),
-        'Taufiq\\BelajarPhpUnitTest\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/src',
         ),
         'Prophecy\\' => 
         array (
