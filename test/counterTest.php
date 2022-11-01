@@ -13,4 +13,9 @@ class counterTest extends TestCase
 		$counter->increment();
 		echo $counter->getCounter();
 	}
+
+	public function testOther()
+	{
+		echo "Other";
+	}
 }
